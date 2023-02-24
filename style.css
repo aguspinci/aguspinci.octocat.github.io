@@ -1,17 +1,27 @@
-header{
+*{
+font-family: 'Tilt Prism', cursiva;
+}
+
+header {
     background-color: aliceblue;
     box-sizing: border-box;
-    margin 0;
-    
-
+    margin: 0;
 }
 
 
 body {
     
-    background-color: rgb(255, 182, 193)
-}
+    background-color: rgb(255, 182, 193);
+    box-sizing: border-box;
+    margin: 60;
     
 
- 
+}
+
+
+ul{
+    list-style: none;
+}
+
+
 
