@@ -1,27 +1,38 @@
-*{
-font-family: 'Titillium Web', sans-serif;
-}
-
-header {
-    background-color: aliceblue;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-
 body {
-    
-    background-color: rgb(255, 182, 193);
-    box-sizing: border-box;
-    margin: 60;
-    
 
-}
-
-
-ul{
+    background-color: white;
+    margin:0;
+    padding:0;
+    font-family: 'Titillium Web', sans-serif;
     list-style: none;
 }
 
+ .name {
+    height: 200px;
+    width: 100%;
+    background:aqua;
+    
+    
+ }
+
+ 
+ .name .personal {  
+    height: 35xp;
+    width: 50%; 
+    color:black;
+    position: absolute;
+    right: 30%;
+    
+    
+ }
+
+.name .personal .a-1{
+    font-weight: bolder;
+    
+
+}
+ 
+.name .personal .a-2{
 
 
+}
