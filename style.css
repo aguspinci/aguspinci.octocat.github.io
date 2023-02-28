@@ -47,42 +47,50 @@ ul{
 }
         
       .dato1{
-        text-align: center;
+        text-align:center;
       }    
-        .sobremi .dato1-a{
+       .sobremi .dato1-a{
                color: white;
                font-weight:bolder
         }
 .datos{
     padding: 20px;
-    background: rgb(230, 43, 255);
-      }
+    background: rgb(230, 43, 255);}
+      
 
         .datos .dato2{
             text-align: center;
             padding: 0;
-            margin: 0;
-        }   
-                 .datos .primeralista{
+            margin: 0;}
+           
+        .datos .primeralista{
                   font-weight:bolder;
-                  color: white;  
-                          }
+                  color: white;}  
+                          
 
 .estudios{
     background: rgb(230, 43, 255);
-}
+       }
 
-       .estudios .segundalista{
-          font-weight:bolder;
-          color: white;                  }
+        .estudios .dato3 {
+            text-align: center;}
+
+        .estudios .segundalista{
+            font-weight:bolder;
+            color: white;}
 
 .experiencia{
-    background: rgb(230, 43, 255);
-}
+    background: rgb(230, 43, 255);}
+      
+    .experiencia .dato4 {
+        text-align: center;
+    }
 
 
 .conteiner-2{
     background: black;
-    color: white;
+    color: white;}
 
-}
+   .conteiner-2 .dato5{
+    text-align: center;
+   }
