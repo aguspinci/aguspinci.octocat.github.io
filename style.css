@@ -1,96 +1,175 @@
 body {
 
-    background-color: rgb(137, 179, 23);
+    background-color: rgb(219, 224, 224);
     margin:0;
-    padding:0;
+    padding:0%;
     font-family: 'Titillium Web', sans-serif;
     
 }
 
-ul{
-    list-style-type: none;
+ul{list-style-type: none;}
+ 
+.name {
+    height: 150px;
+    width: 88%;
+    background: rgba(196, 181, 98, 0.479);
+    transform: skewY(+8deg);
+    padding:6%;
+    margin-bottom: 6%;
+    margin-left: 2%;
+    margin-right: 300px;}
+    
+        .name .personal {  
+          
+          width: 50%; 
+          height: 50px; 
+          letter-spacing: 4px;
+          font-size: 30px;
+          transform: skewY(-8deg);
+          top: 0%;
+          bottom: 100%;
+          right: 200%;
+          left: 50%;}
+
+.name .personal .a-1{
+    font-weight:bolder;
+    position: absolute;
+    padding-top: 60%;
+    padding-bottom: 80px;
+    bottom: 40px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+}
+
+.name .personal .a-2{
+    font-weight: lighter;
+    position: absolute;
+    bottom: 40px;
+    padding-top: 80px;;
+    margin-left: 220px;
+    margin-bottom: 100px;
+}
+.name .fotoperfil{
+    top: 25%;   
+    bottom: 40%;
+    left: 5%;
+    width: 150px;
+    height: 200px;
+    border-radius: 75%; 
+    transform: skewY(-8deg); 
+    overflow: hidden}
+
+.name .fotoperfil img{
+    width:150px
 
 }
- .name {
-    height: 300px;
-    width: 100%;
-    background: rgb(230, 43, 255);
-    transform: skewY(+10deg);
-    margin-top: 10px;
- }
+          
 
-        .name .personal {  
-          height: 35px;
-          width: 50%; 
-          position: absolute;
-          left: 40%;
-          letter-spacing: 3px;
-          margin-top: 10px;
-          font-size: 40px;
-          transform: skewY(-10deg);
-                       }
-
-           .name .personal .a-1{
-             font-weight:bolder;
-             color:black;
-    
-                                }
-
-           .name .personal .a-2{
-             font-weight:bolder     
-                               }
 
 .sobremi{
-    width:80%;  
+    width:80%; 
+    height: 60%; 
     margin: 5%;
-    background: rgb(230, 43, 255);
-}
+    background: rgb(196, 181, 98, 0.479);
+    padding: 20px;
+    border-radius: 40px; }
         
-      .dato1{
-        text-align:center;
-      }    
-       .sobremi .dato1-a{
-               color: white;
-               font-weight:bolder
+      .sobremi .dato1{
+        text-align: center;
+        font-size: x-large;
+        position: relative;
+        letter-spacing: 4px;
+        }   
+        .sobremi .dato1:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            color: black;
         }
+       
+      .sobremi .dato1-a{    
+        font-size:  18px;
+        letter-spacing: 2px;
+        color: rgb(53, 60, 92);
+        font-weight:bolder;}
+   
+
 .datos{
     padding: 20px;
-    background: rgb(230, 43, 255);}
+    background: rgb(196, 181, 98, 0.479);
+     width: 80%;
+     height: 80%;
+     margin: 5%;
+     border-radius: 40px; }
       
 
         .datos .dato2{
+            letter-spacing: 4px;
             text-align: center;
-            padding: 0;
-            margin: 0;}
+            border-bottom: 2px black; }
            
         .datos .primeralista{
-                  font-weight:bolder;
-                  color: white;}  
+            letter-spacing: 2px;
+            font-size:  20px;     
+            font-weight:bolder;
+            color: rgb(53, 60, 92);;}  
                           
 
 .estudios{
-    background: rgb(230, 43, 255);
-       }
+    padding: 20px;
+    background: rgb(196, 181, 98, 0.479);
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    border-radius: 40px; }
 
         .estudios .dato3 {
-            text-align: center;}
+            letter-spacing: 4px;
+            text-align: center;
+           
+        }
 
         .estudios .segundalista{
+            letter-spacing: 2px;
+            font-size:  20px;
             font-weight:bolder;
-            color: white;}
+            color: rgb(53, 60, 92);;}
 
 .experiencia{
-    background: rgb(230, 43, 255);}
+    width: 80%;
+     height: 80%;
+     margin: 5%;
+     border-radius: 40px;
+     padding: 20px;
+     background: rgb(196, 181, 98, 0.479);letter-spacing: 2px;
+     font-size:  20px;     
+     font-weight:bolder;
+     color: rgb(53, 60, 92);}
       
     .experiencia .dato4 {
-        text-align: center;
-    }
+        color: black;
+        letter-spacing: 4px;
+        text-align: center;}
 
+            
 
 .conteiner-2{
     background: black;
-    color: white;}
-
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-style: double;
+    border-width: 10px;} 
+    
    .conteiner-2 .dato5{
+    letter-spacing: 4px;
     text-align: center;
+   }
+
+   .abrir{
+    display: none;
    }
