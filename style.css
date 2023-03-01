@@ -7,7 +7,6 @@ body {
     
 }
 
-ul{list-style-type: none;}
  
 .name {
     height: 150px;
@@ -33,9 +32,10 @@ ul{list-style-type: none;}
 
 .name .personal .a-1{
     font-weight:bolder;
-    position: absolute;
+    position: fixed;
     padding-top: 60%;
     padding-bottom: 80px;
+    padding-top: 80px; 
     bottom: 40px;
     margin-left: 220px;
     margin-bottom: 100px;
@@ -43,11 +43,12 @@ ul{list-style-type: none;}
 
 .name .personal .a-2{
     font-weight: lighter;
-    position: absolute;
+    position: fixed;
     bottom: 40px;
     padding-top: 80px;;
     margin-left: 220px;
     margin-bottom: 100px;
+    text-decoration: underline 4px ;
 }
 .name .fotoperfil{
     top: 25%;   
@@ -79,17 +80,9 @@ ul{list-style-type: none;}
         font-size: x-large;
         position: relative;
         letter-spacing: 4px;
+        text-decoration: underline 4px;
         }   
-        .sobremi .dato1:after {
-            content: "";
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            height: 2px;
-            width: 100%;
-            color: black;
-        }
+        
        
       .sobremi .dato1-a{    
         font-size:  18px;
@@ -110,13 +103,15 @@ ul{list-style-type: none;}
         .datos .dato2{
             letter-spacing: 4px;
             text-align: center;
-            border-bottom: 2px black; }
+            text-decoration: underline 4px;
+             }
            
         .datos .primeralista{
             letter-spacing: 2px;
             font-size:  20px;     
             font-weight:bolder;
-            color: rgb(53, 60, 92);;}  
+            color: rgb(53, 60, 92);
+            list-style-type: upper-alpha;}  
                           
 
 .estudios{
@@ -130,6 +125,7 @@ ul{list-style-type: none;}
         .estudios .dato3 {
             letter-spacing: 4px;
             text-align: center;
+            text-decoration: underline 4px;
            
         }
 
@@ -137,7 +133,8 @@ ul{list-style-type: none;}
             letter-spacing: 2px;
             font-size:  20px;
             font-weight:bolder;
-            color: rgb(53, 60, 92);;}
+            color: rgb(53, 60, 92);
+            list-style-type:lower-roman;}
 
 .experiencia{
     width: 80%;
@@ -153,7 +150,8 @@ ul{list-style-type: none;}
     .experiencia .dato4 {
         color: black;
         letter-spacing: 4px;
-        text-align: center;}
+        text-align: center;
+        text-decoration: underline 4px;}
 
             
 
@@ -168,8 +166,13 @@ ul{list-style-type: none;}
    .conteiner-2 .dato5{
     letter-spacing: 4px;
     text-align: center;
+    text-decoration: underline 4px white ;
    }
 
-   .abrir{
+   #abrir{
     display: none;
+   }
+
+   /*.accion{
+    display: block;
    }
